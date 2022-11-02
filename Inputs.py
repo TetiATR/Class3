@@ -1,0 +1,5 @@
+name = input("Whats your name?")
+print("Hello ", name, ".", sep="")
+age = input("How old are you?")
+print("So you are ",age," years old, right ",name,"?", sep="")
+print("And you were born in ", 2022 - int(age), ". Is that right?", sep="" )
